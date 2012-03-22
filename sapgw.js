@@ -6,4 +6,4 @@ sapgw.test() = function() {
 }
 
 
-model.exports = sapgw;
+module.exports = sapgw;
