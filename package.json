@@ -2,7 +2,7 @@
   "author": "Luc Stakenborg <l.stakenborg@oxida.com> (http://www.oxida.com)",
   "name": "sapgw",
   "description": "Connect to SAP NetWeaver Gateway from Node",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/lstak/node-sapgw",
   "repository": {
     "type": "git",

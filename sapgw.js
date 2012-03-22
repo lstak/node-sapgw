@@ -1,9 +1,9 @@
 
-var sapgw = {};
-
-sapgw.test() = function() {
-    console.log('test')
+var sapgw = {
 }
 
+sapgw.test = function () {
+    console.log('under construction')
+}
 
-module.exports = sapgw;
+module.exports = sapgw ;
