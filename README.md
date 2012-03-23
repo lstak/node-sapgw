@@ -1,11 +1,11 @@
-# SAPGW - Node.js connector for SAP NetWeaver Gateway
+# Node connector for SAP NetWeaver Gateway
 This module helps you to connect your Node.js application to SAP NetWeaver Gateway.
 SAP Gateway offers access to business data in SAP ERP, CRM, SRM etc. Communication with SAP Gateway is 
 based on [OData](http://odata.org), using the AtomPub XML format 
 
 ## Install
 
-    npm install sapgw
+    > npm install sapgw
 
 ## Usage
 
@@ -17,9 +17,9 @@ Currently the following methods are provided:
 * metadata (callback): fetch the metadata description and pass as JavaScript object to callback function 
 * collections (callback): fetch the collections (consumption model) and pass as JavaScript to callback
 
-The example.js file shows how to use the module. 
+The example.js file shows how to use the module. To run the examples:
 
-    node example.js
+    > node example.js
 
 ```javascript
 var Gateway = require('sapgw'),
@@ -64,11 +64,11 @@ function getCollections () {
 
 
 // Try calling any of these functions :
-//getFlights()
+getFlights()
 
-//getCollections();
+getCollections();
 
-//getMetadata();
+getMetadata();
 
 ```
 
